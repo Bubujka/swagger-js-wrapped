@@ -1,0 +1,16 @@
+{
+  "name": "swagger-js-wrapped",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksej Kamynin <kamynin@betaagency.ru> (http://betaagency.ru/)",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^2.3.0",
+    "swagger-client": "bubujka/swagger-js#7d2a3125c890e5115f59a839bbe873c9eae93a46",
+    "underscore": "^1.8.3"
+  }
+}
