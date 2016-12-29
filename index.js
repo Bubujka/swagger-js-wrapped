@@ -3,9 +3,15 @@
 const Client = require('swagger-client');
 const superagent = require('superagent');
 const _ = require('underscore');
+const EventEmmiter = require('events');
 
-class MyClient{
+class MyClient {
   constructor(spec, opts = {}, cb = false) {
+
+    // make observable
+    EventEmmiter.apply(this);
+    Object.assign(this, EventEmmiter.prototype);
+
     this.spec = spec;
     this.opts = opts;
 
@@ -50,8 +56,7 @@ class MyClient{
   }
 }
 
-
-class MyAgent{
+class MyAgent {
   constructor(client){
     this.agent = superagent.agent();
     this.client = client;
