@@ -1,6 +1,6 @@
 {
   "name": "swagger-js-wrapped",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "author": "Aleksej Kamynin <kamynin@betaagency.ru> (http://betaagency.ru/)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "superagent": "^2.3.0",
     "swagger-client": "^2.1.26",
     "underscore": "^1.8.3"
