@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "superagent": "^2.3.0",
-    "swagger-client": "^2.1.26",
+    "swagger-client": "bubujka/swagger-js#7d2a3125c890e5115f59a839bbe873c9eae93a46",
     "underscore": "^1.8.3"
   }
 }
